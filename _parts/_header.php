@@ -8,7 +8,7 @@
   <meta content="" name="description">
 
   <!-- Favicons -->
-  <link href="img/favicon.png" rel="icon">
+  <link href="img/favicon.jpg" rel="icon">
   <link href="img/apple-touch-icon.png" rel="apple-touch-icon">
 
   <!-- Google Fonts -->
@@ -27,6 +27,9 @@
   <!-- Main Stylesheet File -->
   <link href="css/style.css" rel="stylesheet">
 
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="css/custom.css">
+
   <!-- =======================================================
     Theme Name: BizPage
     Theme URL: https://bootstrapmade.com/bizpage-bootstrap-business-template/
@@ -44,28 +47,33 @@
     <div class="container-fluid">
 
       <div id="logo" class="pull-left">
-        <h1><a href="#intro" class="scrollto">BizPage</a></h1>
+        <!-- <h1><a href="#intro" class="scrollto">BizPage</a></h1> -->
         <!-- Uncomment below if you prefer to use an image logo -->
-        <!-- <a href="#intro"><img src="img/logo.png" alt="" title="" /></a>-->
+        <a href=""><img src="img/logo.jpeg" alt="logo de Optimal-WEC" title="logo de Optimal-WEC" /></a>
+        <ul class="nav-menu">
+            <li><a href="#services-web">Web</a></li>
+            <li><a href="#services-exchange">Exchange</a></li>
+            <li><a href="#services-company">Company</a></li>
+        </ul>
       </div>
 
       <nav id="nav-menu-container">
         <ul class="nav-menu">
-          <li class="menu-active"><a href="#intro">Home</a></li>
-          <li><a href="#about">About Us</a></li>
-          <li><a href="#services">Services</a></li>
-          <li><a href="#portfolio">Portfolio</a></li>
-          <li><a href="#team">Team</a></li>
-          <li class="menu-has-children"><a href="">Drop Down</a>
+          <!-- <li class="menu-active"><a href="#intro">A propos</a></li> -->
+          <li><a href="#about">A propos</a></li>
+          <li class="menu-has-children"><a href="#services">Secteurs</a>
             <ul>
-              <li><a href="#">Drop Down 1</a></li>
-              <li><a href="#">Drop Down 3</a></li>
-              <li><a href="#">Drop Down 4</a></li>
-              <li><a href="#">Drop Down 5</a></li>
+              <li><a href="#services-web">Web</a></li>
+              <li><a href="#services-exchange">Exchange</a></li>
+              <li><a href="#services-company">Company</a></li>
             </ul>
           </li>
+          <li><a href="#portfolio">Solutions</a></li>
+          <li><a href="#team">Blog</a></li>
           <li><a href="#contact">Contact</a></li>
         </ul>
       </nav><!-- #nav-menu-container -->
+      
+
     </div>
   </header><!-- #header -->
